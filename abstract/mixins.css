@@ -1,0 +1,60 @@
+@-webkit-keyframes padaj1 {
+  0% {
+    right: -70vh;
+  }
+  100% {
+    right: 0px;
+  }
+}
+@keyframes padaj1 {
+  0% {
+    right: -70vh;
+  }
+  100% {
+    right: 0px;
+  }
+}
+div:nth-child(2) {
+  -webkit-animation: padaj2 2s ease-in 3s forwards;
+          animation: padaj2 2s ease-in 3s forwards;
+}
+
+@-webkit-keyframes padaj2 {
+  0% {
+    right: -70vh;
+  }
+  100% {
+    right: 0px;
+  }
+}
+
+@keyframes padaj2 {
+  0% {
+    right: -70vh;
+  }
+  100% {
+    right: 0px;
+  }
+}
+div:nth-child(3) {
+  -webkit-animation: padaj3 2s ease-in 5s forwards;
+          animation: padaj3 2s ease-in 5s forwards;
+}
+
+@-webkit-keyframes padaj3 {
+  0% {
+    right: -70vh;
+  }
+  100% {
+    right: 0px;
+  }
+}
+
+@keyframes padaj3 {
+  0% {
+    right: -70vh;
+  }
+  100% {
+    right: 0px;
+  }
+}/*# sourceMappingURL=mixins.css.map */
